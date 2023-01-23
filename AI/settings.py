@@ -31,7 +31,7 @@ DEBUG = True
 
 STATIC_URL = 'static/'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ai-env.eba-mmjcvt3f.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition

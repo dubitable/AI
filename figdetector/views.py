@@ -1,11 +1,11 @@
-from django.http import JsonResponse, HttpRequest, HttpResponseBadRequest
+from django.http import JsonResponse, HttpRequest, HttpResponseBadRequest, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from . import model
 import json
 
 @csrf_exempt
 def predict(request: HttpRequest):
-    if request.method != "POST": return HttpResponseBadRequest()
+    if request.method != "POST": return HttpResponse("Fig Detector")
 
     body = json.loads(request.body)
     if "image" not in body: return HttpResponseBadRequest()
