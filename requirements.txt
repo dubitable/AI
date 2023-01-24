@@ -5,6 +5,7 @@ cachetools==5.2.1
 certifi==2022.12.7
 charset-normalizer==3.0.1
 Django==4.1.5
+django-cors-headers==3.13.0
 flatbuffers==23.1.21
 gast==0.4.0
 google-auth==2.16.0
