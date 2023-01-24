@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-import base64, io, os
+import base64, io
 
 class_names = ["apple", "apricot", "avocado", "banana", "bell pepper", "black berry", "blueberry", "cantaloupe", "cherry", "coconut", "coffee", "desert fig", "eggplant", "fig", "grape", "grapefruit", "kiwi", "lemon", "lime", "lychee", "mango", "orange", "pear", "pineapple", "pomegranate", "pumpkin", "raspberry", "strawberry", "watermelon"] 
 
